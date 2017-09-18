@@ -26,4 +26,23 @@
 
 格式请参考 [hexo的格式规范](https://hexo.io/docs/writing.html).
 
+### 如何在本地跑起来
+
+确保你的电脑安装了git
+
+```
+git clone https://github.com/guoylyy/uband-blog.git
+
+cd uband-blog
+```
+
+
+三条命令就可以让这个博客在本地跑起来
+
+```
+npm install hexo -g
+npm install
+hexo server
+```
+
 
