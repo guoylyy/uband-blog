@@ -9,8 +9,8 @@ duoshuo: false
 duoshuo_name:
 
 # disqus comment
-disqus: false
-disqus_shortname:
+disqus: true
+disqus_shortname: uband
 
 # google analytics
 googleTrackId:

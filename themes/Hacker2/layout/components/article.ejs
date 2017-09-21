@@ -83,7 +83,7 @@
 
     </div>
 
-    <% if (index && (theme.duoshuo || theme.disqus)){ %>
+    <% if (index && (theme.duoshuo || theme.disqus.enable)){ %>
     <div class="article-meta pull-right">
       <span>
         <i class="icon-comments"></i>
@@ -95,6 +95,6 @@
     <% } %>
   </div>
 </article>
-<% if (!index && (theme.duoshuo || theme.disqus)){ %>
+<% if (!index && theme.disqus){ %>
   <%- partial('comment') %>
 <% } %>
