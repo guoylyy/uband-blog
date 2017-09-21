@@ -74,6 +74,11 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: Hacker2
 
+disqus:
+  enable: true
+  shortname: uband    #your name
+  count: true
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
